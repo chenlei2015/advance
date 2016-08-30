@@ -6,13 +6,13 @@
  * Time: 12:40
  */
 
-namespace frontend\controllers;
+namespace wechat\controllers;
 
 use yii\web\Controller;
 
 class IndexController extends Controller
 {
         public function actionIndex(){
-            echo "前台";DIE;
+            echo "微信";DIE;
         }
 }
